@@ -1,0 +1,117 @@
+/*
+Autor: Adrian Quevedo (http://adrianquevedo.com)
+*/
+
+/* =1 GLOBAL
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+body {
+	background-color: #eee;
+	color: #333;
+	line-height: 1;
+	font: normal 62.5% Arial, Helvetica, sans-serif;
+	vertical-align: top; }
+
+.container{
+	margin: 0 auto;
+	width: 960px; }
+
+/*
+  SELECTIONS
+--------------------------------------------- */
+::-moz-selection {
+	background: #000;
+	color: #fff;
+	text-shadow: none; }
+
+::selection {
+	background: #000;
+	color: #fff;
+	text-shadow: none; }
+
+	::selection:window-inactive {
+		background: #333;
+		color: #eee; }
+
+img::selection { background: transparent; }
+
+img::-moz-selection { background: transparent; }
+
+
+/* =2 LINKS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+a:link, a:visited { color: #fff; }
+
+a:hover { color: #fff; }
+
+a:active { color: #fff; }
+
+/* =3 HEADINGS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* =4 HEADER
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* =5 CONTENT
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* =6 FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* Viewport */
+@-webkit-viewport {	width: device-width; }
+@-moz-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@-ms-viewport {	width: device-width; }
+@viewport {	width: device-width; }
+
+/*All*/
+@media all {
+	.container {
+		-webkit-transition: max-width 0.4s ease-in-out;
+		-moz-transition: max-width 0.4s ease-in-out;
+		-o-transition: max-width 0.4s ease-in-out;
+		transition: max-width 0.4s ease-in-out;	}
+}
+
+@media print {
+ /* Styles */
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+/* Styles */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+/* Styles */
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+/* Retina Display ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
