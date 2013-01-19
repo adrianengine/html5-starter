@@ -15,31 +15,29 @@ body {
 	margin: 0 auto;
 	width: 960px; }
 
-/*
-  SELECTIONS
---------------------------------------------- */
+/* Selections ----------- */
 ::-moz-selection {
 	background: #000;
-	color: #fff;
-	text-shadow: none; }
+	color: #fff; }
 
 ::selection {
 	background: #000;
-	color: #fff;
-	text-shadow: none; }
+	color: #fff; }
 
 	::selection:window-inactive {
 		background: #333;
 		color: #eee; }
 
-img::selection { background: transparent; }
-
-img::-moz-selection { background: transparent; }
-
+/* Sprited Content ----------- */
+.is-sprited{
+	background-image: url(../i/ui-sprite.png);
+	background-repeat: no-repeat;
+}
 
 /* =2 LINKS
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-a:link, a:visited { color: #fff; }
+a:link,
+a:visited { color: #fff; }
 
 a:hover { color: #fff; }
 
@@ -57,61 +55,41 @@ a:active { color: #fff; }
 /* =6 FOOTER
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
 
-/* MEDIA QUERIES
+/* =7 MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
-/* Viewport */
+
+/* Viewport ----------- */
 @-webkit-viewport {	width: device-width; }
 @-moz-viewport { width: device-width; }
 @-o-viewport { width: device-width; }
 @-ms-viewport {	width: device-width; }
 @viewport {	width: device-width; }
 
-/*All*/
+/*All ----------- */
 @media all {
 	.container {
 		-webkit-transition: max-width 0.4s ease-in-out;
 		-moz-transition: max-width 0.4s ease-in-out;
 		-o-transition: max-width 0.4s ease-in-out;
-		transition: max-width 0.4s ease-in-out;	}
+		transition: max-width 0.4s ease-in-out;
+	}
 }
 
-@media print {
- /* Styles */
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-/* Styles */
-}
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-/* Styles */
-}
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-/* Styles */
-}
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
-/* Styles */
-}
-/* iPads (landscape) ----------- */
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
-/* Styles */
-}
-/* iPads (portrait) ----------- */
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
-/* Styles */
-}
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
-/* Styles */
-}
-/* Large screens ----------- */
-@media only screen and (min-width : 1824px) {
-/* Styles */
-}
 /* Retina Display ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio : 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+/* Print Styles ----------- */
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
 }

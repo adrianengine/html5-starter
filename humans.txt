@@ -1,14 +1,14 @@
 /* TEAM */
 	UI/Front-end/Back-end developer: Adrian Quevedo
-	Contact: hello [at] adrianquevedo.com
+	Website: http://adrianquevedo.com
 	Twitter: @adrianengine
 	From: Bogotá, Colombia
 
 /* SITE */
-	Last update: 18 December 2012
-	Language: Español
+	Last update: 19 January 2013
+	Language: English
 	Doctype: HTML5
-	Components: Wordpress, jQuery.
+	Components: jQuery
 	IDE/Software: SublimeText 2, Fireworks, Photoshop
 
 

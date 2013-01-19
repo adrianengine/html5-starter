@@ -3,54 +3,72 @@
 <head>
 <title>Title</title>
 <!-- Meta Tags -->
-<meta charset="utf-8" />
-<meta name="author" content="Adrian Quevedo" />
-<meta name="keywords" content="insert keywords Here" />
-<meta name="description" content="Insert Description Here" />
-<meta name="robots" content="all" />
-<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="author" content="Adrian Quevedo">
+<meta name="description" content="Insert Description Here">
+<meta name="robots" content="all">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Favicon and home link-->
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<!-- Humanstxt.org-->
-<link type="text/plain" rel="author" href="humans.txt" />
-<!-- CSS-->
-<link rel="stylesheet" href="css/normalize.css" type="text/css" media="all" />
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" title="Main Style" />
+<!-- Favicon and Apple Touch Icon -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+<!-- Humanstxt.org -->
+<link rel="author" type="text/plain" href="humans.txt">
+<!-- relogo.org -->
+<link rel="logo" type="image/svg" href="logo.svg">
+<!-- CSS -->
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css" title="Main Style">
 
 <!--[if lt IE 9]>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <link media="screen" href="css/ie.css" rel="stylesheet" />
 <![endif]-->
-
-<!-- START ANALYTICS -->
-<!-- END ANALYTICS -->
 
 </head>
 <body>
 <div class="container">
-    <!--START HEADER-->
-    <header></header>
-    <!--END HEADER-->
+    <!-- START HEADER -->
+    <!-- ARIA: the landmark role "banner" is set as it is the prime heading or internal title of the page -->
+    <header role="banner">
 
-    <!--START MAIN CONTENT-->
-    <section> </section>
-    <!--END MAIN CONTENT-->
+      <!-- ARIA: the landmark role "navigation" is added here as the element contains site navigation -->
+      <nav role="navigation">
+        <!-- This can contain your site navigation either in an unordered list or even a paragraph that contains links that allow users to navigate your site -->
+      </nav>
+
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START MAIN CONTENT -->
+    <section role="main"></section>
+    <!-- END MAIN CONTENT -->
 </div>
 
-<!--START FOOTER-->
-<footer> </footer>
-<!--END FOOTER-->
+<!-- START FOOTER -->
+<!-- ARIA: the landmark role "contentinfo" is added here as it contains metadata that applies to the parent document -->
+<footer role="contentinfo"></footer>
+<!-- END FOOTER -->
 
-<!--SCRIPTS-->
+<!-- START SCRIPTS -->
 <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js">\x3C/script>')</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
 
-<!-- scripts concatenated and minified-->
+<!-- Scripts concatenated and minified-->
 <script src="js/actions.js"></script>
-<!-- end scripts-->
+<!-- END SCRIPTS -->
+
+<!-- START ANALYTICS -->
+<!-- Google Analytics: change UA-XXXXX-X to be the site's ID. -->
+<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+<!-- END ANALYTICS -->
 </body>
 </html>
 <!--
