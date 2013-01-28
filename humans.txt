@@ -5,7 +5,7 @@
 	From: Bogotá, Colombia
 
 /* SITE */
-	Last update: 19 January 2013
+	Last update: 27 January 2013
 	Language: English
 	Doctype: HTML5
 	Components: jQuery
