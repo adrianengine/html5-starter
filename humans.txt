@@ -1,15 +1,32 @@
 /* TEAM */
-	UI/Front-end/Back-end developer: Adrian Quevedo
-	Website: http://adrianquevedo.com
-	Twitter: @adrianengine
-	From: Bogotá, Colombia
+
+UI/Front-end/Back-end developer:
+
+Name: 					Adrian Quevedo
+Site:					http://adrianquevedo.com
+Twitter:				@adrianengine
+Location:				Bogotá, Colombia
 
 /* SITE */
-	Last update: 27 January 2013
-	Language: English
-	Doctype: HTML5
-	Components: jQuery
-	IDE/Software: SublimeText 2, Fireworks, Photoshop
+
+Standards:
+
+HTML5
+CSS3
+
+Components:
+
+HTML5 Boilerplate		http://html5boilerplate.com/
+HTML5 Bones				http://html5bones.com/
+jQuery: 				http://jquery.com/
+Normalize:				http://necolas.github.io/normalize.css/
+
+IDE/Software:
+
+Adobe® Fireworks®:		http://www.adobe.com/products/fireworks.html
+Adobe® Photoshop®:		http://www.adobe.com/products/photoshop.html
+Hammer for Mac:			http://hammerformac.com/
+SublimeText 2:			http://www.sublimetext.com/
 
 
               _      _                ____                           _
