@@ -1,0 +1,74 @@
+/*
+ * Autor: Adrian Quevedo (http://adrianquevedo.com)
+ */
+
+@import "grid-settings";
+@import "neat";
+@import "helpers";
+@import "globals";
+
+/* =1 BODY AND LAYOUTS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+html {
+	background-color: $white;
+}
+
+body {
+	color: $black;
+	font: normal 100%/1.5 $helvetica;
+	vertical-align: top;
+}
+
+/* Layout Styles ----------- */
+.l-container{
+	position: relative;
+	width: 90%;
+	@include outer-container;
+}
+
+.l-header {
+	/* @todo Write header layout element styles */
+}
+
+.l-content {
+	/* @todo Write content layout element styles */
+}
+
+.l-footer {
+	/* @todo Write footer layout element styles */
+}
+
+/* =2 LINKS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+a:link,
+a:visited {
+	color: $black;
+}
+
+a:hover {
+	color: $black;
+}
+
+a:active {
+	color: $black;
+}
+
+/* =3 HEADINGS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* @todo Write headings CSS */
+
+/* =4 HEADER
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* @todo Write Header CSS */
+
+/* =5 CONTENT
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* Section A Styles ----------- */
+/* @todo Write Content CSS */
+
+/* Section B Styles ----------- */
+/* @todo Write Content CSS */
+
+/* =6 FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+/* @todo Write Footer CSS */
