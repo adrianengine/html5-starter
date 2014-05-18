@@ -7,6 +7,9 @@ NS.Site = (function(){
 		var NameSite = {
 			init: function () {
 				this.bindUIActions();
+
+				// Placeholder Polyfill
+				$('input, textarea').placeholder();
 			},
 			bindUIActions: function () {
 
@@ -23,8 +26,7 @@ NS.Site = (function(){
 						'hitType': 'event',          // Required.
 						'eventCategory': 'button',   // Required.
 						'eventAction': 'click',      // Required.
-						'eventLabel': 'Clic on: ' + title,
-						'eventValue': 1
+						'eventLabel': 'Clic en: ' + title
 					});
 				});
 			}
