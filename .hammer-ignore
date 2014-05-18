@@ -1,1 +1,6 @@
+.DS_Store
+.csslintrc
+.jshintrc
+.gitkeep
+template.txt
 README.md
