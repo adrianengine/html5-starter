@@ -1,6 +1,50 @@
-<!-- START HEADER -->
-<!-- ARIA: the landmark role "banner" is set as it is the prime heading or internal title of the page -->
-<header class="l-header" role="banner">
-<!-- @include _nav -->
-</header>
-<!-- END HEADER -->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Title | Adrian Quevedo HTML5 Starter Project</title>
+<!-- Meta Tags -->
+<meta charset="utf-8">
+<meta name="author" content="Adrian Quevedo">
+<meta name="description" content="{{ Insert Description Here }}">
+<meta name="robots" content="all">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+<meta name="application-name" content="Adrian Quevedo">
+<!-- Open Graph - http://ogp.me/ -->
+<meta name="og:title" content="Insert Title Here">
+<meta name="og:description" content="{{ Insert Description Here }}">
+<meta name="og:type" content="website">
+<meta name="og:site_name" content="{{ Insert Site Name Here }}">
+<meta name="og:url" content="{URL}">
+<meta name="og:image" content="{URL}">
+<!-- Favicon and Apple Touch Icon -->
+<link rel="shortcut icon" href="<!-- @path favicon.ico -->" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" href="<!-- @path apple-touch-icon-precomposed.png -->">
+<!-- Humanstxt.org -->
+<link rel="author" type="text/plain" href="<!-- @path humans.txt -->">
+<!-- Prefetch DNS for external assets -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<!-- Prefetch web fonts -->
+<link rel="prefetch" href="{FONT_PATH}">
+<!-- CSS -->
+<!--[if gt IE 9]><!-->
+	<!-- @stylesheet style -->
+<!--<![endif]-->
+
+<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if IE 9]>
+	<link rel="stylesheet" href="assets/css/app-ie9.css" />
+<![endif]-->
+
+<!--[if IE 8]>
+	<link rel="stylesheet" href="assets/css/app-ie8.css" />
+<![endif]-->
+
+<!-- @reload -->
+</head>
+<body>
+
+<!-- @include _header -->
