@@ -25,7 +25,8 @@ Additionaly as a grid framework it also includes [Bourbon Neat](http://neat.bour
 ## Modules
 With the exception of [base element styles](/assets/css/base) & [global state classes](/assets/css/_state.scss), everything is a standalone, reusable module that doesn't change regardless of the context it appears in.
 
-Grid classes and "unique" things like your site header & footer aren't special. IDs aren't welcome. Everything - **everything** - is a module.
+Grid classes and "unique" things like your site header & footer aren't special. **IDs aren't welcome**.
+Everything - **everything** - is a module.
 
 ### Simple module
 Here's what a simple module, might look like:
