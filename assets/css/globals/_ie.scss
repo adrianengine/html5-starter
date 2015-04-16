@@ -1,0 +1,6 @@
+// IE version variables
+// ------------------------------------------------
+$ie7: false !default;
+$ie8: false !default;
+$ie9: false !default;
+$lt-ie9: $ie7 or $ie8;

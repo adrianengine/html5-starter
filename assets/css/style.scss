@@ -1,6 +1,13 @@
 /*
-Autor: Sancho BBDO (http://www.sanchobbdo.com.co)
+Autor: Adrian Quevedo — http://adrianquevedo.com
 */
+
+// Global
+// Config variables, color palette, etc
+// ------------------------------------------------
+@import "globals/ie";
+@import "globals/color-palette";
+@import "globals/color-theme";
 
 // Mixin & function libraries
 // ------------------------------------------------
@@ -8,8 +15,7 @@ Autor: Sancho BBDO (http://www.sanchobbdo.com.co)
 @import "grid-settings";
 @import "neat";
 
-// Our Mixins & Functions
-//@import "functions/*";
+// Our Mixins
 @import "mixins/basehold_visor";
 @import "mixins/one_line_dotted";
 @import "mixins/custom_btn";
@@ -17,30 +23,38 @@ Autor: Sancho BBDO (http://www.sanchobbdo.com.co)
 // @font-face declarations
 // If you're using a JS webfont loader you won't need this
 // ------------------------------------------------
-@import "fonts";
+@import "generic/fonts";
 
-// Vendor CSS libraries (i.e. they actually output styles)
+// Generic
+// Ground-zero styles - CSS libraries (i.e. they actually output styles)
 // ------------------------------------------------
-@import "vendor/normalize";
+@import "generic/normalize";
+@import "generic/defaults";
 
-// Global config variables, colour palette, etc
+// Base
+// Unclassed HTML elements (Type selectors)
 // ------------------------------------------------
-@import "globals";
+@import "base/anchor-links";
+@import "base/headings";
+@import "base/form";
 
-// Base element styles
+// Objects
+// Cosmetic-free design patterns
 // ------------------------------------------------
-@import "base/elements";
+@import "objects/layout";
 
-// Modules
+// Components
+// Designed components, chunks of UI
 // ------------------------------------------------
-@import "modules/header";
-@import "modules/example_module";
-@import "modules/footer";
+@import "components/header";
+@import "components/example_module";
+@import "components/footer";
 
-// Global state classes
+// Utilities
+// Helpers and overrides
 // ------------------------------------------------
-@import "state";
+@import "utilities/state";
 
 // Print Styles
 // ------------------------------------------------
-//@import "print";
+@import "print";

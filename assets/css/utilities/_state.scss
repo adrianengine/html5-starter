@@ -2,20 +2,12 @@
 // Module-specific states belong with their module as a regular modifier class.
 // e.g .my-module--is-loading
 
-.is-hidden{
-	display: none;
-}
-
-.no-js .is-hidden--no-js{
-	display: none;
-}
-
-.js .is-hidden--js{
+.u-hidden{
 	display: none;
 }
 
 // Hide only visually, but have it available for screenreaders: h5bp.com/v
-.is-visually-hidden{
+.u-visually-hidden{
 	border: 0;
 	clip: rect(0 0 0 0);
 	height: 1px;
@@ -27,8 +19,8 @@
 }
 
 // Extends the .is-visually-hidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p
-.is-visually-hidden.focusable:active,
-.is-visually-hidden.focusable:focus {
+.u-visually-hidden.focusable:active,
+.u-visually-hidden.focusable:focus {
 	clip: auto;
 	height: auto;
 	margin: 0;
@@ -38,6 +30,6 @@
 }
 
 // Hide visually and from screenreaders, but maintain layout
-.is-invisible {
+.u-invisible {
 	visibility: hidden;
 }

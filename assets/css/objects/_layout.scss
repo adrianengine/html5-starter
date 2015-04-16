@@ -1,0 +1,9 @@
+/* Layout Styles ----------- */
+.o-container {
+	@include outer-container;
+	width: 90%;
+
+	@if $lt-ie9 {
+		width: 960px;
+	}
+}

@@ -1,0 +1,47 @@
+/* Opinionated Defaults
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+html {
+    background-color: $white;
+}
+
+body {
+    color: $black;
+    font: normal 100%/1.5 $helvetica;
+    vertical-align: top;
+}
+
+/* Viewport ----------- */
+@-webkit-viewport {	width: device-width; }
+@-moz-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@-ms-viewport {	width: device-width; }
+@viewport {	width: device-width; }
+
+/* Selections ----------- */
+// Remove text-shadow in selection highlight: h5bp.com/i
+::-moz-selection {
+	background: $red;
+	color: $white;
+	text-shadow: none;
+}
+
+::selection {
+	background: $red;
+	color: $white;
+	text-shadow: none;
+}
+
+::selection:window-inactive {
+	background: $black;
+	color: #eee;
+}
+
+// A better looking default horizontal rule
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}

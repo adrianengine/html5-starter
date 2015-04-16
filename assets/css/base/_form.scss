@@ -1,0 +1,26 @@
+// This allows for easy targeting of all inputs that mimic input[type="text"].
+// (http://bourbon.io/docs/#html5-input-types)
+
+#{$all-text-inputs} {
+	border: 1px solid $green;
+}
+
+#{$all-text-inputs-hover} { // Target the :hover pseudo-class
+	background: $red;
+}
+
+#{$all-text-inputs-focus} { // Target the :focus pseudo-class
+	background: $white;
+}
+
+// Allow only vertical resizing of textareas.
+textarea {
+    resize: vertical;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	@include button($black);
+}
